@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+    background-color: #EEE;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  nav {
+    margin: 20px;
+  }
+
+  a {
+    margin: 0px 10px;
+    color: #333;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .active {
+    color: rgb(0, 0, 0);
+    background-color: rgba(rgb(163, 214, 167), 0.4);
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: rgb(10, 92, 14) 3px 3px 7px;
+  }
